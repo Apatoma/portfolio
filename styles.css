@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #004d00; /* Verde oscuro */
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column; /* Alinea el contenido verticalmente */
+}
+
+.container {
+    position: relative;
+}
+
+.logo {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 600px; /* Ajusta el tamaño según tus necesidades */
+}
+
+.logo img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.logo-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px; /* Ajusta el tamaño según tu logo */
+    height: 150px; /* Ajusta el tamaño según tu logo */
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #ffffff; /* Borde blanco para resaltar */
+}
+
+.logo-overlay img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content {
+    margin-top: 80px; /* Mueve todo el contenido hacia abajo */
+}
+
+.intro p {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 600px;
+    margin: 40px auto 20px; /* Mueve el texto un poco más abajo */
+}
+
+.social-links {
+    margin-top: 30px; /* Añade espacio entre el texto y los iconos */
+}
+
+.social-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
